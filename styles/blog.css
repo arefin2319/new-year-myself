@@ -11,10 +11,9 @@ body{
 }
    /* banner section starts here */
    .banner-container{
-    width: 1320 px;
+    max-width: ;width: 1320 px;
     margin: 0 auto;
     margin-top: 20px;
-    border: 2px solid red;
     min-height: 600px;
     background-image: url(/images/Banner\ Image.png);
     background-position: center;
@@ -41,5 +40,57 @@ body{
     font-size: 72px;
     font-weight: 800;
    }
+   /* 65% styles start here */
+   .second-section-container{
+    width: 802.9px;
+    height: 806px;
+   
+    margin: 0 auto;
+    margin-top: 120px;
+   }
+    .second-section-content{
+        display: flex;
+    flex-direction: column;
+    height: 302px;
+    justify-content: center;
+    align-items: center
     
+    }
+    .second-section-content h1{
+        font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+text-align: center;
+color: rgb(255, 0, 0);
+    }
+    .second-section-content p{
+        color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .second-section-content h2{
+        color: rgb(7, 2, 17);
+
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .image-container{
+        width: 802.9px;
+height: 500px;
+left: 399px;
+right: -399px;
+top: 165.28%;
+bottom: -142.09%;
+    }
+    .image-container img{
+        width: 100%;
+        height: 100%;
+    }
    
